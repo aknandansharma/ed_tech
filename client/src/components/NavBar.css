@@ -1,0 +1,31 @@
+/* navbar css */
+
+#logoName{
+    font-size: 30px;
+    color: red;
+}
+#logoName > span{
+    font-size: 25px;
+    color: blue;
+}
+
+#navMain{
+    font-size: 18px;
+}
+
+
+#signinLink{
+    color: #2196F3;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 15px;
+    border: 1px solid #2196F3;
+    border-radius: 6px;
+}
+#signinLink:hover{
+    background-color: #48b844;
+    color: white;
+    text-decoration: none;
+}
+
