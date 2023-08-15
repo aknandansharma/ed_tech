@@ -77,8 +77,15 @@ body {
   padding: 1.2rem;
 }
 
+.card_title {
+  font-weight: 600;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+}
+
 h2.card_title,p {
   margin: 1.2rem 0;
+  
 }
 h2.card_title {
     font-size: 1.3em;
@@ -87,4 +94,16 @@ h2.card_title {
 
 html {
   font-size:15px;
+}
+
+.author {
+  text-decoration: none;
+  color: #0d90e7;
+  font-weight: bold;
+  cursor: pointer;
+}
+.post-date {
+  font-size: 0.8em;
+  color: #706f6f;
+  margin-left: 20px;
 }

@@ -18,6 +18,8 @@ const Post = () => {
                                 <h1 className='card_title'>
                                     Farmstand Salad • $9
                                 </h1>
+                                <a className="author">@<span>aknandansharma</span></a>
+                                <time className="post-date">14-10-2021, 16:45</time>
                                 <div className='card_text'>
                                     <p>
                                         Dig into the freshest veggies of the

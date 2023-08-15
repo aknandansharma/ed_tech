@@ -4,6 +4,9 @@ import morgan from "morgan";
 import colors from 'colors';
 import connectDB from "./config/db.js";
 
+// import routes
+// import userRoutes from './routes/userRoutes.js';
+
 
 // reset objects
 const app = express();
@@ -17,7 +20,7 @@ app.use(morgan('dev'));
 app.use(express.json());
 
 // routes
-
+// app.use('api/vi/user', userRoutes);
 
 
 // PORT
